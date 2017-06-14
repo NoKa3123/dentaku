@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js"></script>
+    <script src="check.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="Tone.js"></script>
+    <script src="mpms.js"></script>
+</head>
+<body>
+
+    <div align="center">
+       <!-- <img src="tone-plus1.png" width="80%" />-->
+        <p id="tlc"></p><br/>
+    </div>
+    <button class="b2" onclick="calc('C')">C</button>
+    <button class="b2" onclick="calc('=')">イコール</button><br />
+    <button class="b1" onclick="calc('1')">ド(1)</button>
+    <button class="b1" onclick="calc('2')">レ(2)</button>
+    <button class="b1" onclick="calc('3')">ミ(3)</button>
+    <button class="b1" onclick="calc('4')">フ(4)</button>
+    <button class="b1" onclick="calc('5')">ソ(5)</button>
+    <button class="b1" onclick="calc('6')">ラ(6)</button>
+    <button class="b1" onclick="calc('7')">シ(7)</button><br />
+    <!--  <button class="b1" onclick="work()">work</button>
+    <button class="b1" onclick="">none</button>-->
+    <button class="b1" onclick="calc('+')">+</button>
+    <button class="b1" onclick="calc('-')">-</button>
+    <button class="b1" onclick="calc('*')">×</button>
+    <button class="b1" onclick="calc('/')">÷</button>
+    <button class="b1" onclick="play()">PLAY</button>
+    <button class="b1" onclick="music('s')">STOP</button>
+</body>
+
+</html>
